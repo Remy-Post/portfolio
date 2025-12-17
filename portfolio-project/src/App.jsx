@@ -5,11 +5,11 @@ function App() {
   return (
     <>
         <div className="w-[90%] mx-auto border-amber-50 bg-white">
-            <header className="grid grid-cols-[20%_80%] h-[10%] grid-rows-1 bg-gray-50 items-center">
-                <h1 className="">Portfolio</h1>
+            <header className="flex justify-between h-[10%] py-4 grid-rows-1 bg-gray-50 items-center">
+                <h1 className="text-3xl">Portfolio</h1>
                 <nav className="-bg-linear-150 ml-10">
-                     <menu className=" w-[60%] flex justify-between">
-                         <NavItem to="/">Home</NavItem>
+                     <menu className=" w-[50vw] text-xl flex justify-between mx-1">
+                         <NavItem to="/" >Home</NavItem>
                          <NavItem to="/projects">Projects</NavItem>
                          <NavItem to="/contacts">Contact</NavItem>
                          <NavItem to="/contacts/github">GitHub</NavItem>
@@ -31,8 +31,8 @@ export default App
 
 function NavItem ({children, to}){
     return (
-         <li className="hover:bg-blue-500 cursor-pointer">
-             {to ? <Link to={to}>{children}</Link> : children}
+         <li className="cursor-pointer">
+             {to ? <Link to={to} className="p-2 hover:bg-gray-500 hover:underline rounded-lg">{children}</Link> : children}
          </li>
     )
 }
