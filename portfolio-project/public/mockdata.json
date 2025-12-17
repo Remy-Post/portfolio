@@ -23,9 +23,109 @@
       "name": "Restaurant Review App",
       "shortDescription": "A restaurant review app, where users can review restaurants and leave comments, helping potentials customers make a well-informed decision",
       "description": "",
+      "highlights": "Used Stipe",
       "techStack": ["C#", "MVC razor pages", "Stripe", "Google OAuth", "Github OAuth", "Discord OAuth", "CRUD Operations", "Bootstrap", "Git", "GitHub"],
       "githubLink": "https://github.com/Remy-Post/Restaurant_Review_App",
       "hostingLink": "https://restaurant-review.tryasp.net/"
+    },
+    {
+      "id": 4,
+      "name": "",
+      "shortDescription": "A console game where users can play a game of console on tick",
+      "description": "",
+      "techStack": ["C#"],
+      "githubLink": "",
+      "hostingLink": ""
+    }
+  ],
+  "techStacks": [
+    {
+      "id": 1,
+      "name": "C#",
+      "proficiency": "Intermediate",
+      "projects": [3, 4]
+    },
+    {
+      "id": 2,
+      "name": "C++",
+      "proficiency": "Beginner",
+      "projects": []
+    },
+    {
+      "id": 3,
+      "name": "Java",
+      "proficiency": "Intermediate",
+      "projects": [1]
+    },
+    {
+      "id": 4,
+      "name": "JavaFX",
+      "proficiency": "Intermediate",
+      "projects": [1]
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "proficiency": "Intermediate",
+      "projects": [2]
+    },
+    {
+      "id": 6,
+      "name": "JavaScript",
+      "proficiency": "Beginner",
+      "projects": []
+    },
+    {
+      "id": 7,
+      "name": "TypeScript",
+      "proficiency": "Beginner",
+      "projects": []
+    },
+    {
+      "id": 8,
+      "name": "MySQL",
+      "proficiency": "Intermediate",
+      "projects": []
+    },
+    {
+      "id": 9,
+      "name": "PHP",
+      "proficiency": "Beginner",
+      "projects": []
+    },
+    {
+      "id": 10,
+      "name": "HTML",
+      "proficiency": "Advanced",
+      "projects": []
+    },
+    {
+      "id": 11,
+      "name": "CSS",
+      "proficiency": "Intermediate",
+      "projects": []
+    },
+    {
+      "id": 12,
+      "name": "Tailwind",
+      "proficiency": "Beginner",
+      "projects": []
+    },
+    {
+      "id": 13,
+      "name": "Bootstrap",
+      "proficiency": "Beginner",
+      "projects": []
+    },{
+      "id": 14,
+      "name": "Python",
+      "proficiency": "Intermediate",
+      "projects": []
+    },{
+      "id": 15,
+      "name": "Arduino (C++)",
+      "proficiency": "Beginner",
+      "projects": []
     }
   ]
 }
