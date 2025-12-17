@@ -127,5 +127,27 @@
       "proficiency": "Beginner",
       "projects": []
     }
+  ],
+  "contacts": [
+    {
+      "name": "GitHub",
+      "icon": "",
+      "link": "https://github.com/Remy-Post"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "",
+      "link": "https://www.linkedin.com/in/remy-post/"
+    },
+    {
+      "name": "Discord",
+      "icon": "",
+      "link": "https://discord.com/users/remy-post"
+    },
+    {
+      "name": "Email",
+      "icon": "",
+      "link": "remy.post.06@gmail.com"
+    }
   ]
 }

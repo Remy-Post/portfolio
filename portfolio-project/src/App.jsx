@@ -19,7 +19,7 @@ function App() {
             <main>
                 <Outlet />
             </main>
-            <footer className="bg-purple-400 h-[10vh] ">
+            <footer className="bg-purple-400 h-[10vh] w-full ">
                 <p className="text-center">© 2025 Remy Post. All rights reserved.</p>
             </footer>
         </div>
