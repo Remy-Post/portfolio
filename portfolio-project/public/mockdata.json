@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Snake Game",
+      "shortDescription": "A recreation of the classic snake game with some personal twist, adding obsticals and portals",
+      "description": "",
+      "techStack": ["JavaFX", "MVC Arcutectures", "Java", "Git", "GitHub"],
+      "githubLink": "",
+      "hostingLink": ""
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Website",
+      "shortDescription": "A online, e-commers style restaurant website, where users can order items found within a restaurant",
+      "description": "",
+      "techStack": ["ReactJS", "Redux-Toolkit", "React-Redux", "React Router (Dom)", "React Router", "Tail wind", "Git", "GitHub"],
+      "githubLink": "https://github.com/Remy-Post/Meals-App",
+      "hostingLink": ""
+    },
+    {
+      "id": 3,
+      "name": "Restaurant Review App",
+      "shortDescription": "A restaurant review app, where users can review restaurants and leave comments, helping potentials customers make a well-informed decision",
+      "description": "",
+      "techStack": ["C#", "MVC razor pages", "Stripe", "Google OAuth", "Github OAuth", "Discord OAuth", "CRUD Operations", "Bootstrap", "Git", "GitHub"],
+      "githubLink": "https://github.com/Remy-Post/Restaurant_Review_App",
+      "hostingLink": "https://restaurant-review.tryasp.net/"
+    }
+  ]
+}
