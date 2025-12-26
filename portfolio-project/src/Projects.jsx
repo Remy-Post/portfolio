@@ -34,7 +34,9 @@ export default function Projects(){
                     //Empty MOCK data / Before it loads
                     <p>Loading...</p> :
                     projectList.map((project, index) => (
-                    <Project key={project?.id ?? index} {...project} />
+                        <div className="w-[60%] mx-auto bg-gray-200 m-3 p-5 rounded-2xl hover:bg-gray-600">
+                            <Project key={project?.id ?? index} {...project}/>
+                        </div>
                 ))}
             </div>
         </>

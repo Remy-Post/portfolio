@@ -13,14 +13,14 @@ export default function Project({children, ...params}){
         <div className="">
             {/*Header*/}
             <div className="grid grid-cols-3">
-                <div className="w-20 flex justify-evenly mx-auto">
+                <div className="w-20 flex justify-evenly">
                     <div className="bg-cyan-400 w-[3vh] h-[3vh] rounded-4xl"></div>
                     <div className="bg-pink-500 w-[3vh] h-[3vh] rounded-4xl"></div>
                     <div className="bg-amber-300 w-[3vh] h-[3vh] rounded-4xl"></div>
                 </div>
                 <h3 className="text-2xl font-bold text-center self-center">{params.name}</h3>
                 {/*Icon*/}
-                <div>
+                <div className="flex justify-end">
                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 20 20"
                          aria-hidden="true" className="h-7 w-7 self-end hover:cursor" height="1em" width="1em"
                          xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ export default function Project({children, ...params}){
                 </div>
             </div>
             {/*Body*/}
-            <br className="bg-blue-500"/>
+            <hr className="text-blue-100 bg-black rounded-4xl h-[2px] px-3 my-2" />
             <div>
                 <div> {/*Starting*/}
                     <span className={colors.red}>const</span>
