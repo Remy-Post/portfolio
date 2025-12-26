@@ -4,7 +4,7 @@ export default function Project({children, ...params}){
         gray: "text-gray-700",
         yellow: "text-amber-300",
         blue: "text-cyan-400",
-        red: "text-red-600",
+        red: "text-pink-500",
         orange: "text-orange-400",
         main: "text-black"
 
@@ -14,9 +14,9 @@ export default function Project({children, ...params}){
             {/*Header*/}
             <div className="grid grid-cols-3">
                 <div className="w-20 flex justify-evenly mx-auto">
-                    <div className="bg-blue-500 w-[3vh] h-[3vh] rounded-4xl"></div>
-                    <div className="bg-red-600 w-[3vh] h-[3vh] rounded-4xl"></div>
-                    <div className="bg-amber-300 w-[3vh] h-[3vh] rounded-4xl"></div>
+                    <div className={`${colors.blue} w-[3vh] h-[3vh] rounded-4xl`}></div>
+                    <div className={`${colors.red} w-[3vh] h-[3vh] rounded-4xl`}></div>
+                    <div className={`${colors.yellow} w-[3vh] h-[3vh] rounded-4xl`}></div>
                 </div>
                 <h3 className="text-2xl font-bold text-center self-center">{params.name}</h3>
                 {/*Icon*/}
@@ -36,6 +36,12 @@ export default function Project({children, ...params}){
             {/*Body*/}
             <br className="bg-blue-500"/>
             <div>
+                <div> {/*Starting*/}
+                    <span className={colors.red}>const</span>
+                    <span className={colors.main}> project </span>
+                    <span className={colors.red}>=</span>
+                    <span className={colors.gray}>{</span>
+                </div>
                 <div> {/* Name*/}
                     <span className={colors.main}>type:</span>
                     <span className={colors.gray}> '</span>
@@ -60,6 +66,14 @@ export default function Project({children, ...params}){
                 <div> {/*Role*/}
                     <span className={colors.main}>myRole: </span>
                     <span className={colors.orange}>{params.role}</span>
+                </div>
+                <div> {/*Description*/}
+                    <span className={colors.main}>Description: </span>
+                    <span className={colors.blue}>{params.description}</span>
+                    <span className={colors.gray}>,</span>
+                </div>
+                <div> {/*Ending*/}
+                    <span className={colors.gray}>};</span>
                 </div>
             </div>
             {/*Footer*/}
