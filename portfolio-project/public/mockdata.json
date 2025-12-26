@@ -27,15 +27,6 @@
       "techStack": ["C#", "MVC razor pages", "Stripe", "Google OAuth", "Github OAuth", "Discord OAuth", "CRUD Operations", "Bootstrap", "Git", "GitHub"],
       "githubLink": "https://github.com/Remy-Post/Restaurant_Review_App",
       "hostingLink": "https://restaurant-review.tryasp.net/"
-    },
-    {
-      "id": 4,
-      "name": "",
-      "shortDescription": "A console game where users can play a game of console on tick",
-      "description": "",
-      "techStack": ["C#"],
-      "githubLink": "",
-      "hostingLink": ""
     }
   ],
   "techStacks": [

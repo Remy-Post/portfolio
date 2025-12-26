@@ -29,7 +29,7 @@ export default function Projects(){
     return (
         <>
             <h1 className="text-3xl text-center my-10">My Projects</h1>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4">
+            <div className="flex flex-col gap-4">
                 {projectList === null ?
                     //Empty MOCK data / Before it loads
                     <p>Loading...</p> :
