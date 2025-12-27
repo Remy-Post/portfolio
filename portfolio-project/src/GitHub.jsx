@@ -21,7 +21,7 @@ export default function GitHub() {
     };
 
   return (
-      <>
+      <div className="h-[83vh]">
           <div className="">
               <a
               href="https://github.com/Remy-Post"
@@ -65,6 +65,5 @@ export default function GitHub() {
                   />
               </div>
           </div>
-      </>);
-
+      </div>);
 }

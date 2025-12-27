@@ -39,9 +39,6 @@ export default function Index(){
                     When I'm not coding, you can find me analyzing movies, strategizing over board games, or relaxing with video games.
                 </TextHolder>
             </div>
-           <div className="w-full h-[30vh] bg-amber-400">
-
-           </div>
         </>
     )
 }

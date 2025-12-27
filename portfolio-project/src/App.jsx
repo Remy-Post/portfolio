@@ -20,6 +20,10 @@ function App() {
             <footer className="bg-purple-400 h-[10vh] w-full py-4 flex justify-between">
                 <h5 className="ml-10 text-xl font-bold">Remy Post</h5>
                 <div className="flex justify-evenly items-center w-[20vw]"> {/* Social Media Icons */}
+                    <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src="Document.svg" alt="GitHub Icon" className="w-10 h-10" />
+                    </a>
+                    <span className="text-4xl my-3 font-bold ">-</span>
                     <a href="https://github.com/remy-post" target="_blank" rel="noopener noreferrer">
                         <img src="github_Icon.png" alt="GitHub Icon" className="w-10 h-10" />
                     </a>
