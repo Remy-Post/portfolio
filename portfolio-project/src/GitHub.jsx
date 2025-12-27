@@ -1,7 +1,5 @@
 import {GitHubCalendar} from "react-github-calendar";
 
-import { useState, useEffect } from "react";
-
 export default function GitHub() {
     const username = "Remy-Post";
 
