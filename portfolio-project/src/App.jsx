@@ -17,8 +17,19 @@ function App() {
             <main>
                 <Outlet />
             </main>
-            <footer className="bg-purple-400 h-[10vh] w-full ">
-                <p className="text-center">© 2025 Remy Post. All rights reserved.</p>
+            <footer className="bg-purple-400 h-[10vh] w-full py-4 flex justify-between">
+                <h5 className="ml-10 text-xl font-bold">Remy Post</h5>
+                <div className="flex justify-evenly items-center w-[20vw]"> {/* Social Media Icons */}
+                    <a href="https://github.com/remy-post" target="_blank" rel="noopener noreferrer">
+                        <img src="github_Icon.png" alt="GitHub Icon" className="w-10 h-10" />
+                    </a>
+                    <a href="mailto:remy.post.06@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="Gmail_Icon.svg" alt="GitHub Icon" className="w-10 h-10" />
+                    </a>
+                    <a href="tel:9053920623" target="_blank" rel="noopener noreferrer">
+                        <img src="phone.svg" alt="GitHub Icon" className="w-10 h-10" />
+                    </a>
+                </div>
             </footer>
         </div>
     </>

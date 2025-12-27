@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-github-calendar": "^5.0.4",
     "react-router-dom": "^7.10.1"
   }
 }
