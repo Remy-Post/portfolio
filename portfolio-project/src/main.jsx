@@ -7,7 +7,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Index from "./Index.jsx"
 import ErrorPage from "./ErrorPage.jsx"
 import Projects from "./Projects.jsx";
-import Contacts from "./Contacts.jsx";
 import GitHub from "./GitHub.jsx";
 
 const router = createBrowserRouter([
@@ -25,17 +24,8 @@ const router = createBrowserRouter([
                 element: <Projects />
             },
             {
-                path: "contacts",
-                children: [
-                    {
-                        index: true,
-                        element: <Contacts />
-                    },
-                    {
-                        path: "github",
-                        element: <GitHub />
-                    }
-                ]
+                path: "github",
+                element: <GitHub />
             }
         ]
     }

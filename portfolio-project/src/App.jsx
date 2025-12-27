@@ -8,10 +8,9 @@ function App() {
             <header className="flex justify-between h-[10%] py-4 bg-gray-50 items-center">
                 <nav className="mx-auto">
                      <menu className="flex justify-between gap-5">
-                         <NavItem to="/" >Home</NavItem>
+                         <NavItem>Home</NavItem>
                          <NavItem to="/projects">Projects</NavItem>
-                         <NavItem to="/contacts">Contact</NavItem>
-                         <NavItem to="/contacts/github">GitHub</NavItem>
+                         <NavItem to="/github">GitHub</NavItem>
                      </menu>
                 </nav>
             </header>
@@ -28,7 +27,7 @@ function App() {
 
 export default App
 
-function NavItem ({children, to}){
+function NavItem ({children, to = "/"}){
     return (
          <li className="cursor-pointer">
              {to ? <Link to={to} className="p-2 hover:bg-gray-500 hover:underline rounded-lg underline underline-offset-2">{children}</Link> : children}
